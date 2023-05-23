@@ -14,6 +14,20 @@ public class ebayMainPage {
 
     @FindBy(id = "gh-btn")
     WebElement clickBtn;
+    
+    /*Good Practice Should Be
+    
+    @FindBy(id= "gh-btn")
+    WebElement seachBoxClickButton  ------> Meaningful and descriptive: Choose a name that accurately represents the purpose and 
+    functionality of the interface. Interface names should be descriptive enough to convey what behavior or functionality the interface defines.
+    
+   
+    
+    
+    
+    
+    */
+    
 
     @FindBy(id = "gh-ac")
     WebElement search;
